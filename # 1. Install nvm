@@ -1,0 +1,17 @@
+# 1. Install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# 2. Load nvm immediately (so we don't need to restart shell)
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# 3. Install and use Node LTS
+nvm install --lts
+nvm use --lts
+
+# 4. Navigate to project and install dependencies
+cd /Users/fred_000/Documents/Apps/swcapp/swmraisinghopesite
+npm install
+
+# 5. Start the development server
+npm run dev

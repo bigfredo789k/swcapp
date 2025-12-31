@@ -8,9 +8,9 @@ interface SEOProps {
 }
 
 export function SEO({ 
-  title = 'SWC App', 
+  title = 'SWM Raising Hope Inc', 
   description = 'Empowering communities through support and connection.', 
-  name = 'SWC App', 
+  name = 'SWM Raising Hope Inc', 
   type = 'website' 
 }: SEOProps) {
   return (
